@@ -1,0 +1,115 @@
+/* reset */
+* {
+	box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, button {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* my styles */
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	background: lightslategrey;
+	line-height: 1.2;
+}
+
+section {
+	padding: 50px 0;
+}
+
+.wrapper {
+	display: flex;
+	flex-flow: column;
+	height: 100%;
+}
+
+main {
+	flex-grow: 1;
+}
+
+.container {
+	max-width: 1110px;
+	margin: 0 auto;
+}
+
+.header {
+    background: rgba(37, 63, 151, 1);
+	color: #fff;
+	padding: 20px 0;
+}
+
+.header-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu {
+	display: flex;
+	gap: 20px;
+}
+
+.menu a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: 400;
+    line-height: 24px;
+}
+
+.menu a:hover {
+	color: rgba(255, 126, 32, 1);
+}
+
+.footer {
+	padding: 20px 0;
+	background: rgba(37, 63, 151, 1);
+    font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	text-align: center;
+}
+
+.copyright > span {
+    text-decoration: underline;
+}
