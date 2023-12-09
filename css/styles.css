@@ -77,7 +77,7 @@ main {
 .header {
     background: rgba(37, 63, 151, 1);
 	color: #fff;
-	padding: 20px 0;
+	padding: 35px 0;
 }
 
 .header-container {
@@ -102,8 +102,123 @@ main {
 	color: rgba(255, 126, 32, 1);
 }
 
+.main-section {
+	background: rgba(46, 46, 46, 1);
+	display: inline-flex;
+	height: 470px;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-text {
+	color: #FFF;
+	text-align: center;
+	font-family: Fredericka the Great;
+	font-size: 48px;
+	text-transform: uppercase;
+	max-width: 771px;
+}
+
+.about-section {
+	padding: 90px 0;
+	background: #424242;
+}
+
+.about-title {
+	color: #FFF;
+	font-family: Montserrat;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 48px;
+}
+
+.subtitle-container {
+	flex-shrink: 0;
+	background: #212121;
+	display: flex;
+	margin-top: 45px;
+	border-radius: 8px;
+}
+
+.subtitle-info {
+	padding: 26px 24px;
+	display: flex;
+	flex-direction: column;
+	gap: 26px;
+}
+
+.about-subtitle {
+	color: #FFF;
+	font-family: Montserrat;
+	font-size: 32px;
+	font-weight: 700;
+}
+
+.about-text {
+	color: #FFF;
+	font-family: Montserrat;
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.feature-section {
+	padding: 90px 0;
+	background: rgba(33, 33, 33, 1);
+}
+
+.card-container {
+	margin-top: 45px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.card {
+	border-radius: 8px;
+	border: 2px solid #424242;
+	background: #212121;
+	width: 350px;
+	min-height: 409px;
+	padding: 24px 26px 23px 26px;
+}
+
+.card-title {
+	color: #FFF;
+	font-family: Montserrat;
+	font-size: 32px;
+	font-weight: 700;
+	margin-top: 24px;
+}
+
+.card-desc {
+	color: #FFF;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.card-content {
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+	margin-top: 23px;
+}
+
+.card-link {
+	color: #FF7E20;
+	font-family: Montserrat;
+	font-size: 16px;
+	font-weight: 400;
+	text-decoration-line: underline;
+	transition: .3s;
+}
+
+.card-link:hover {
+	color: #eb6c11;
+}
+
 .footer {
-	padding: 20px 0;
+	padding: 30px;
 	background: rgba(37, 63, 151, 1);
     font-family: 'Montserrat', sans-serif;
 	color: #fff;
@@ -112,4 +227,26 @@ main {
 
 .copyright > span {
     text-decoration: underline;
+}
+
+.copyright {
+	margin-bottom: 12px;
+}
+
+.footer-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+
+.footer-social {
+	display: flex;
+	justify-content: center;
+}
+
+.footer-social ul {
+	display: flex;
+	gap: 16px;
+	margin-top: 12px;
 }
