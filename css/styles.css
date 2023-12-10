@@ -86,19 +86,19 @@ main {
 	align-items: center;
 }
 
-.menu {
+.header-menu {
 	display: flex;
 	gap: 20px;
 }
 
-.menu a {
+.header-menu a {
 	color: #fff;
 	text-decoration: none;
 	font-weight: 400;
     line-height: 24px;
 }
 
-.menu a:hover {
+.header-menu a:hover {
 	color: rgba(255, 126, 32, 1);
 }
 
@@ -133,7 +133,7 @@ main {
 	line-height: 48px;
 }
 
-.subtitle-container {
+.about-block {
 	flex-shrink: 0;
 	background: #212121;
 	display: flex;
@@ -141,7 +141,7 @@ main {
 	border-radius: 8px;
 }
 
-.subtitle-info {
+.about-info {
 	padding: 26px 24px;
 	display: flex;
 	flex-direction: column;
